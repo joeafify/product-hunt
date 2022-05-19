@@ -86,7 +86,7 @@ function App() {
 						<p className="font-light text-6xl">Page not found!</p>
 						<NavLink to="/" className="my-10 underline">
 							Go to home page
-						</NavLink>
+						</NavLink>z
 					</section>
 				}
 			/>
