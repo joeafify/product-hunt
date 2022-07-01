@@ -10,8 +10,6 @@ function Navbar(props: any) {
 	const [theme, setTheme] = useState<string>("dark");
 	useEffect(() => {
 		const getTheme = localStorage.getItem("theme");
-		console.log(theme);
-
 		if (getTheme === "light") {
 			document.body.classList.remove("dark");
 			setTheme("light");
@@ -19,7 +17,6 @@ function Navbar(props: any) {
 			document.body.classList.add("dark");
 			setTheme("dark");
 		}
-		console.log(theme);
 	}, [theme]);
 
 	const toggleMode = () => {
