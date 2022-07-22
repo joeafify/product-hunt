@@ -82,11 +82,11 @@ function App() {
 				path="*"
 				element={
 					<section className="flex flex-col justify-center items-center h-screen text-secondary-dark">
-						<h1 className=" text-9xl font-bold">404</h1>
-						<p className="font-light text-6xl">Page not found!</p>
+						<h1 className=" text-9xl font-bold animate-bounce">404</h1>
+						<p className="font-light text-4xl">Page not found!</p>
 						<NavLink to="/" className="my-10 underline">
 							Go to home page
-						</NavLink>z
+						</NavLink>
 					</section>
 				}
 			/>
