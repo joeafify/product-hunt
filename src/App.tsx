@@ -10,7 +10,7 @@ function App() {
 	const [products] = useState<Product[]>([
 		{
 			id: 1,
-			name: "Generic Granite Fish",
+			name: "Generic Granite Fish nn",
 			link: "https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 			media:
 				"https://images.pexels.com/photos/90946/pexels-photo-90946.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
